@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    height: 10%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul {
+    margin: 0 auto;
+    list-style: none;
+}
+
+nav a {
+    margin-top: 20px;
+    padding: 1em;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.person {
+    display: flex;
+    height: 105px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+/*****************************************main*************************************************/
+
+main {
+    background-color: #F0F0F0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2%;
+
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    background-color: #fff;
+}
+
+
+.card-big {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 52.3%;
+    background-color: white;
+}
+
+.country {
+    color: #A2A2A2;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.country-big {
+    color: #A2A2A2;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.card-big img {
+    width: 100%;
+}
+
+.card img {
+    width: 100%;
+    height: 30%;
+}
+
+.title-big {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 16px;
+    text-transform: capitalize;
+}
+
+.title-card {
+    margin-left: 16px;
+    font-size: 1.5em;
+    font-weight: bold;
+   
+}
+
+.text-card {
+    font-weight: bold;
+    margin: 1em;
+    height: 30%;
+}
+
+/**********************************footer*****************************************************************/
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 0.4em;
+    font-size: em;
+}
+
+.contact p {
+    text-align: center;
+}
+
+.contact {
+    background-color: #313131;
+    width: 20%;
+}
+
+.contact img {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+}
+
+.about {
+    width: 20%;
+}
+
+.title {
+    margin-left: 6.4px;;
+    font-weight: bold;
+    font-size: 1.5em;
+}
